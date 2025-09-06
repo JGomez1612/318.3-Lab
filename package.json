@@ -1,0 +1,17 @@
+{
+  "name": "lecture",
+  "version": "1.0.0",
+  "description": "- Describe the Representational State Transfer (REST) architecture.\r - Summarize the six guiding principles of REST.\r - Explain how REST is used to build Application Programming Interfaces (APIs).\r - Differentiate between REST, HTTP, and CRUD.\r - Identify which HTTP methods correspond to specific CRUD actions.\r - Summarize the advantages and disadvantages of the REST architecture.\r - Create a working RESTful API using Express.\r - Create structured data for the API.\r - Create and organize API routes.\r - Create custom middleware.\r - Use third-party middleware.\r - Summarize popular Express database integrations",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
